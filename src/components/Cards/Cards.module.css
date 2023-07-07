@@ -1,0 +1,26 @@
+/* .cardsContainer {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .cards {
+    height: 100%;
+    overflow: initial;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    justify-content: space-around;
+    margin: auto;
+    padding: 2em;
+    background: transparent;
+} */
+
+.cards {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

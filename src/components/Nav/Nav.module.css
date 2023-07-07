@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 1em;
+  gap: .4em;
+  flex-wrap: wrap;
+}
+
+.navBtn {
+  border-radius: 15px;
+  border: none;
+  background-color: #1E2022;
+  text-decoration: none;
+  color: #fff;
+  padding: .5em 1em;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  gap: .3em;
+}
+
+.navBtn:hover {
+  background-color: #4f4f50;
+  cursor: pointer;
+}
+
+.navBtn a {
+  text-decoration: none;
+  color: #fff;
+}
